@@ -1,0 +1,36 @@
+*{box-sizing: border-box;}
+.one{
+	  width: 100%;
+	  height: 10vh;
+	  float: left;
+	  background-color: black;
+}
+.two{
+	width: 25%;
+	height: 30vh;
+	float: left;
+	background-color:yellow;
+}   
+.three{
+	width: 50%;
+	height: 30vh;
+	float: left;
+	background-color:pink;
+}
+.four{
+	width: 25%;
+	height: 30vh;
+	float: left;
+	background-color:red;
+}
+.five{
+	width: 100%;
+	  height: 10vh;
+	  float: left;
+	  background-color:blue;
+}
+@media screen and (max-width: 800px) {
+  .one, .two, .three, .four, .five {
+    width: 100%; 
+  }
+}
