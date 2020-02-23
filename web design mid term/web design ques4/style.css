@@ -1,0 +1,32 @@
+*{box-sizing: border-box;}
+
+.one{
+	  width: 960px;
+	  height: 400px;
+	  float: left;
+	  background-color: black;
+}
+.two{
+	width: 960px;
+	height: 175px;
+	float: left;
+	background-color:yellow;
+}   
+.three{
+	width: 320px;
+	height: 155px;
+	float: left;
+	background-color:pink;
+}
+.four{
+	width: 640px;
+	height: 155px;
+	float: left;
+	background-color:red;
+}
+.five{
+	width: 960px;
+	  height: 70px;
+	  float: left;
+	  background-color:blue;
+}
