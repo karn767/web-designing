@@ -1,0 +1,274 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+font-family: sans-serif;
+    
+}
+header{
+    background-color: rgb(221, 234, 184);
+    width: 100%;
+    border-bottom: 3px solid white;
+}
+.head-content{
+    width: 900px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.headtext{
+    
+    font-size: 30px;
+    color: rgb(31, 51, 11);
+}
+.list{
+    padding: 40px;
+}
+.list a{
+    text-decoration: none;
+    color:black;
+    padding: 50px;
+    text-align: end;
+    
+}
+.list a:hover{
+    color:rgb(138, 219, 106);
+   
+}
+
+.img2{
+    max-width: 100%;
+    padding: 40px;
+    background-image: url(i/pic2.jpg) ;
+    border-bottom: 3px solid white;
+    
+}
+.head-content{
+    width: 900px;
+    margin: auto;
+}
+.img3
+{
+   height: 300px;
+   padding-top: 20px;
+   
+
+}
+
+
+
+.head2{
+    font-size: 40px;
+    font-weight: bolder;
+    
+    color: rgb(56, 75, 18);
+    width: 7cm;
+    
+}
+.p1{
+    width: 7cm;
+    max-width: 100%;
+}
+.button1
+{
+    width: 3cm;
+    height: 1cm;
+    background-color: rgb(119, 172, 14);
+    color: white;
+    border: none;
+    border-radius: 4px;
+    position: relative;
+}
+
+.button1 a{
+    text-decoration: none;
+    color: white;
+    width: 3cm;
+    height: 1cm;
+}
+.button1 a:hover{
+    background-color: white;
+    padding: 10px 28px;
+    color: yellowgreen;
+  
+}
+.div4-wrappper{
+
+    background-color: rgb(224, 220, 220);
+}
+.div4-wrapper{
+width: 900px;
+margin: auto;
+}
+.div4{
+    
+    display: inline-flex;
+    justify-content: space-between;
+    padding: 40px;
+    box-shadow: black 3px;
+}
+.p2{
+    width: 33%;
+    padding: 30px;
+    box-shadow: black;
+    
+}
+.p2 img{
+    max-width: 100%;
+    border: 4px solid white;
+
+}
+
+
+.div5
+{
+
+background-color: white;
+width: 900px;
+margin: auto;
+padding: 20px;
+}
+
+.div6
+{
+
+    display: inline-block;
+}
+.img7
+{
+    width:40px;
+    
+
+}
+
+.para2
+{
+    color: dimgray;
+}
+.div7
+{ 
+    display: inline-block;
+  
+
+}
+
+.div8
+{
+    display: inline-block;
+    
+}
+
+.content
+{
+    width: 900px;
+    margin: auto;
+    justify-content: space-between;
+    
+    display: inline-flex;
+    
+}
+
+.head3
+{
+    font-weight: bolder;
+    color: rgb(56, 75, 18);;
+}
+
+.enlarge:hover {
+    transform:scale(1.2,1.2);
+    transform-origin:0 0;}
+
+.div-content
+{
+margin: auto;
+width: 780px;
+background-image: url(i/shadow.jpg);
+background-repeat: no-repeat;
+padding: 70px;
+background-size: cover;
+border: white solid 4px;
+}
+
+.div-text
+{
+    background-color: white;
+    opacity:75%;
+width: 600px;
+padding: 10px;
+margin: auto;
+
+}
+
+.div-text:hover
+{
+    opacity: 100%;
+    background-color: yellowgreen;
+    transform-origin: (0,0);
+    transform: scale(1.05,1.05);
+}
+
+
+.div-title
+{
+
+    font-size: xx-large;
+    color: rgb(46, 63, 12);
+    font-weight: bolder;
+}
+
+.div-class
+{
+    width: 900px;
+    margin: auto;
+    padding: 25px;
+    align-items: center;
+
+}
+
+.div-contact
+{
+    margin: auto;
+    width: 600px;
+    background-image: url(i/contact.jpg);
+    background-repeat: no-repeat;
+    padding: 200px;
+    background-size: cover;
+    border: white solid 4px;
+    box-shadow: 10px 10px 10px rgb(73, 73, 75);
+    }   
+
+.div-touch
+{
+    margin: auto;
+    display: inline-block;
+  width: 400px;
+  padding: 25px;
+    border-right: rgb(110, 104, 104) solid 2px;
+}
+
+.div-form
+{     margin: auto;
+     color: green;
+     padding: 50px;
+     display: inline-block;
+    
+}
+
+.div-comment
+{
+    margin: auto;
+    display: inline-block;
+    width: 100px;
+    color: green;
+
+}
+
+.submit:hover
+{
+    background-color: white;
+    padding: 10px 28px;
+    color: yellowgreen;
+}
