@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>assignment 7</title>
+<style>
+    body{
+        font-family: sans-serif;
+    }
+.grid-container{
+    display: grid;
+    position: relative;
+    grid-template-columns: 30% 25% 15% 15% 15%;
+    grid-template-rows: 25% 25% 25% 25%;
+    background-color: crimson;
+}    
+.grid-item{
+    grid-row-start: 1;
+    grid-row-end:4;
+    background-color: red;
+    height: 380px;
+    text-align: center;
+    box-sizing: border-box;
+    border: 30px solid greenyellow;
+    text-align: center;
+    
+}
+.grid-item2{
+    height: 150px;
+    text-align: center;
+    background-color: teal;
+}
+.grid-item3{ 
+    grid-column-start: 3;
+    grid-column-end: 6;
+    background-color: black;
+    text-align: center;
+}
+.grid-item4{
+    background-color: mediumseagreen;
+    text-align: center;
+}
+.grid-item5{
+    grid-column-start: 3;
+    grid-column-end: 5;
+    grid-row-start: 2;
+    grid-row-end: 4;
+    text-align: center;
+    background-color: darkolivegreen;
+}
+.grid-item51{
+    grid-column-start: 5;
+    grid-column-end: 6;
+    grid-row-start: 2;
+    grid-row-end: 4;
+    text-align: center;
+    background-color: turquoise;
+}
+.grid-item6{
+    text-align: center;
+    background-color: teal;
+}
+.grid-item7{
+    padding-left: 10px;
+
+    height: 125px;
+    background-color: blue;
+}
+.grid-item8{
+    text-align: center;
+    background-color: gray;
+}
+.grid-item9{
+    text-align: center;
+    background-color: purple;
+}
+.grid-item10{
+    text-align: center;
+    background-color: turquoise;
+}
+.grid-item11{
+    text-align: center;
+    background-color: gold;
+}
+.grid-container1{
+    display: grid;
+    grid-template-columns: 60% 40%;
+    grid-template-rows: 20% 80%;
+}
+
+</style>
+</head>
+<body>
+
+
+<div class="grid-container">
+  <div class="grid-item">
+      <p style="border-bottom: 1px solid greenyellow;padding-bottom: 10px;color: greenyellow;">CSS Grid - Intro</p>
+        <p style="background-color: white;padding: 3px;margin: 4px;border-radius: 3px; width: 300px;margin-left: 20px;">sdfklsndflkn</p>
+        <p style="background-color: white;padding: 3px;margin: 4px;border-radius: 3px; width: 300px;margin-left: 20px;">bsgjksyjfghdfvsjfghfsgrthsjhgdf</p>
+        <p style="background-color: white;padding: 3px;margin: 4px;border-radius: 3px; width: 300px;margin-left: 20px;">bsgjksyjfghdfvsjfghfsgrthsjhgdf</p>
+        <p style="background-color: white;padding: 3px;margin: 4px;border-radius: 3px; width: 300px;margin-left: 20px;">bsgjksyjfghdfvsjfghfsgrthsjhgdf</p>
+        <p style="background-color: white;padding: 3px;margin: 4px;border-radius: 3px; width: 300px;margin-left: 20px;">bsgjksyjfghdfvsjfghfsgrthsjhgdf</p>
+  </div>
+  <div class="grid-item2"><p style="color: white;margin-top: 40px;"> First 3 Steps</p></div>
+  <div class="grid-item3"><p style="color: white;margin-top: 45px;">CSS Grid vs. Others</p></div>  
+
+      
+      <div class="grid-item4"><p style="color: white;margin-top: 30px;">1. Define container element as a grid (display: grid)</p></div>
+      <div class="grid-item5"><p style="color: white;padding: 5px;line-height: 20px;">Grid <br> Custom Grid Sizing <br> Custom classes <br> Custom media queries</p></div>
+      <div class="grid-item51"><p style="line-height: 15px;">Bootstrap/foundation <br> 12 columns <br> predefined classes <br> four/five breakpoints <br> Main take away: Rapid <br> Website protyping</p></div>
+ 
+  <div class="grid-item6"><p style="color: white;">2. Define column and row sizes with <br>(grid-template-columns)</p></div>  
+  <div class="grid-item7">
+  <p style="color: white;margin-bottom: 4px;">Grid Lingo</p>
+  <p style="background-color: white;color: black;margin: 2px;padding: 4px;width: 378px;border-radius: 2px;">dkflndlkfnsldknfsdkjfl</p>
+  <p style="background-color: white;color: black;margin: 2px;padding: 4px;width: 378px;border-radius: 2px;">dkflndlkfnsldknfsdkjfl</p>
+</div>
+  <div class="grid-item8"><p style="color: white;margin-top: 40px;">3. Place child elements into the grid</p></div>
+  <div class="grid-item9"><p style="color: white;">Grid Links</p><p style="color: blue;">CSS Grid tricks <br> Grid Garden <br> MON Grid</p></div>  
+  <div class="grid-item10"><p style="color: orange;">Other Links</p><p style="color: blue;">Flexbox <br> bootstrap <br> foundation</p></div>
+  <div class="grid-item11"><p style="color: white;">The above grid item becomes a grid container ready for a new grid template</p></div>
+</div>
+
+</body>
+</html>
