@@ -1,0 +1,25 @@
+#grad1 {
+  height: 200px;
+  background-color: red; /* For browsers that do not support gradients */
+  background-image: linear-gradient(red, yellow);
+}
+#grad2 {
+  height: 200px;
+  background-color: black; /* For browsers that do not support gradients */
+  background-image: linear-gradient(black, white);
+}
+#grad3 {
+  height: 200px;
+  background-color: green; /* For browsers that do not support gradients */
+  background-image: linear-gradient(green, pink);
+}
+#grad4 {
+  height: 200px;
+  background-color: blue; /* For browsers that do not support gradients */
+  background-image: linear-gradient(blue, beige);
+}
+#grad5 {
+  height: 200px;
+  background-color: brown; /* For browsers that do not support gradients */
+  background-image: linear-gradient(brown, skyblue);
+}

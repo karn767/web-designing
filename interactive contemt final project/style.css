@@ -1,0 +1,166 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+   font-family: Roboto,sans-serif;
+
+}
+
+
+.nav-wrapper{
+    
+    width: 100%;
+    
+
+}
+
+nav{
+    max-width: 800px;
+    height: 60px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+nav span{
+    font-weight: bold;
+    font-size: 31px;
+    color:  black;
+    width: 40px;
+    border-radius: 3px;
+    margin-left: -139px;
+    letter-spacing: -1px;
+    margin-top: 9px;    
+}
+
+
+nav ul{
+    list-style: none;
+    line-height: 37px;
+    letter-spacing: 19px;
+    margin-right: -117px;
+}
+
+nav ul li{
+    display: inline;
+    margin: 0 10px;
+    padding-bottom: 4px;
+    font-size: 10px;
+    font-weight: bold;
+    font-family: Arimo,sans-serif;
+    letter-spacing: .125rem;
+    font-weight: 700;
+    font-size: .75rem;
+    line-height: 1.5;
+}
+.nav ul li:hover{
+    border-bottom: 2px solid green;
+    color: green;
+}
+.first{
+    background: url(download.jpg) no-repeat;
+    width: 100%;
+    min-height: 100%;
+    background-size: cover;
+    background-attachment: fixed;
+
+}
+
+
+.container1{
+    align-items: center;
+    text-align: center;
+    position: absolute;
+    margin-left: 23em;
+    margin-top: 6em;
+    background-color: white;
+    width: 51%;
+    height: 25em;
+    background-repeat: no-repeat;
+  background-attachment: fixed;
+  z-index: 1;
+  display: block;
+}
+.second{
+    text-align: center;
+}
+.second p{
+    color: #4a4a4a;
+    margin-top: 43px;
+    font-family: Arimo,sans-serif;
+}
+.second h2{
+    font-size: 3rem;
+}
+.third{
+    background-color: #3db36b;
+    color: white;
+    width: 100%;
+    height: 33em;
+}
+.one{
+    width: 50%;
+}
+.one h2{
+    font-size: 3.125rem!important;
+    margin-left: 2em;
+    padding-top: 2em;
+}
+.one p{
+    margin-left: 5.6em;
+    line-height: 20px;
+    font-size: 18px;
+}
+.two{
+    width: 50%
+}
+.two img{
+    margin: -21em 40em;
+}
+.one button{
+    width: 172px;
+    height: 58px;
+    background: transparent;
+    border-color: white;
+    color: white;
+    font-family: ui-sans-serif;
+    margin: 40px 0px 0px 104px;
+}
+.last{
+     background: url(downloadd.jpg) no-repeat;
+    width: 100%;
+    min-height: 100%;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.container2{align-items: center;
+    text-align: center;
+    position: absolute;
+    margin-left: 19em;
+    margin-top: 8em;
+    background-color: transparent;
+    width: 55%;
+    height: 25em;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    z-index: 1;
+    display: block;
+    color: white;
+}
+.lastt ul li{
+    display: inline;
+    margin: 0 10px;
+    padding-bottom: 4px;
+    font-size: 10px;
+    font-weight: bold;
+    font-family: Arimo,sans-serif;
+    letter-spacing: .125rem;
+    font-weight: 700;
+    font-size: .75rem;
+    line-height: 1.5;
+}
+.lastt ul li img{
+    width: 20px;
+}
