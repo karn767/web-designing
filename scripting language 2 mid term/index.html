@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Mid term</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="script.js"></script>
+</head>
+
+<body>
+    <div class="Box1">
+        <form>
+                <label>First Name:</label>
+                <input type="text" id="first"> <br>
+
+                <label>Last Name:</label>
+                <input type="text" id="last"> <br>
+
+                <label>Blood Group:</label>
+                <select class="form-control" id="blood">
+                    <option>A-</option>
+                    <option>A+</option>
+                    <option>B-</option>
+                    <option>B+</option>
+                    <option>AB-</option>
+                    <option>AB+</option>
+                </select> <br>
+  
+                <label>Phone Number:</label>
+                <input type="text" id="mobile"><br>
+
+                <label>Student Id:</label>
+                <input type="text" id="id"><br>
+            
+                <label>Address:</label>
+                <textarea  id="textarea" cols="30" rows="10"></textarea> <br>
+
+                <label>Do you have a car:</label>
+                <input type="radio" class="radio" name="car" id="yes" value="Yes"> Yes
+                <input type="radio" class="radio" name="car" id="no" value="No"> No <br>
+
+                <label>Age:</label>
+                <input type="text" id="age"> <br>
+
+                <label>Gender:</label>
+                <select name="" id="gender">
+                    <option>Male</option>
+                    <option>Female</option>
+                </select> <br>
+                <br>
+            
+                <label for="">Marital Status:</label>
+                <select name="" id="marriage">
+                    <option>Single</option>
+                    <option>Married</option>
+                    <option>Divorced</option>
+                </select> <br>
+            
+            
+                
+            
+            <button type="button" onclick="formData()" class="button" >Submit</button>
+        </form>
+        <div class="display">
+            <ul id="boardfordata"></ul>
+        </div>
+    </div>
+
+</body>
+
+</html>

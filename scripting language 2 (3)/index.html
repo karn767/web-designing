@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>scripting language 3</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="script.js"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="first">
+        <form>
+            <div class="form-group">
+                <label>Name</label>
+                <input type="text" class="form-control" id="name">
+            </div>
+            <div class="form-group">
+                <label>Roll Number</label>
+                <input type="text" class="form-control" id="rollNo">
+            </div>
+            <div class="form-group">
+                <label>Mobile Number</label>
+                <input type="text" class="form-control" id="mobile">
+            </div>
+            <div class="form-group">
+                <label>Email Id</label>
+                <input type="email" class="form-control" id="email">
+            </div>
+            <button type="button" onclick="submitData()" class="btn btn-primary" style="background-color: black">Submit</button>
+        </form>
+        <div class="second">
+            <ul id="board"></ul>
+        </div>
+    </div>
+</body>
+
+</html>

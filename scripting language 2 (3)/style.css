@@ -1,0 +1,13 @@
+.first{
+       width: 50%;
+       margin-left: 20em;
+       margin-top: 5em;
+}
+ul{
+    list-style-type: none;
+}
+
+ul li{
+    font-size: 18px;
+    padding: 5px;
+}
