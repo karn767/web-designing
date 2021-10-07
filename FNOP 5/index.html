@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+<script>
+  var firstName, lastName, Age, Gender;
+alert("Please enter all the required spaces");
+Age = Number(prompt("Give me your age"));
+firstName = prompt("Give me your first name");
+lastName = prompt("Give me your last name");
+Gender = prompt("Give me your gender");
+
+function testTeenager() {
+  if (Age < 18) return alert("Hello " + firstName);
+}
+
+function testGenderAndAge() {
+  if (Age >= 18) {
+    if (Gender === "female") alert("hello mrs " + lastName);
+    else prompt("hello mr " + lastName);
+  }
+}
+
+testTeenager();
+testGenderAndAge();
+  
+  </script>
+
+</head>
+
+<body>
+
+<input type="text" id="username" />
+
+</body>
+</html>
